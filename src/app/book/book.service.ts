@@ -1,9 +1,8 @@
-import { Http, Response, RequestOptions, Header} from '@angular/http';
+import { Http, Response, RequestOptions} from '@angular/http';
 import {Injectable} from '@angular/core';
 import {Observable} from 'rxjs/Observable';
 import {Book} from './book';
 import 'rxjs/add/operator/map';
-import {Observable} from '@reactivex/rxjs/es6/Observable.js';
 import 'rxjs/add/operator/catch';
 
 @Injectable()
